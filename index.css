@@ -6,33 +6,59 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #000 ;
   }
-  
+  .logo{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
   .logo img {
-    width: 100px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .logo h1{
+    padding-left: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
   }
   
   .search-box {
     display: flex;
     align-items: center;
   }
-  
-  .search-box input[type="text"] {
-    padding: 8px;
+  .search-box input{
+  min-height: 36px;
+  max-width: 250px;
+  padding: 0 1rem;
+  color: #000000;
+  font-size: 15px;
+  border: 2px solid rgb(0, 187, 187);  
+  border-radius: 6px 0 0 6px;
+  background-color: transparent;
+  }
+
+  .search-box button{
+    min-height: 40px;
+    padding: .5em 1em;
     border: none;
-    border-radius: 3px 0 0 3px;
+    border-radius: 0 6px 6px 0;
+    background-color:rgb(0, 187, 187);  
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
   }
   
-  .search-box button[type="submit"] {
-    padding: 8px;
-    background-color: #444;
-    color: #fff;
-    border: none;
-    border-radius: 0 3px 3px 0;
-    cursor: pointer;
+  .search-box input:focus, .search-box input:focus-visible {
+    border-color: rgba(137, 43, 226, 0.527);
+    outline: none;
+  }
+  .search-box button:hover{
+    background-color: rgba(137, 43, 226, 0.527);;
   }
   
   .menu {
@@ -42,6 +68,7 @@
   }
   
   .menu li {
+    font-size: 20px;
     margin-right: 20px;
   }
   
@@ -50,7 +77,7 @@
   }
   
   .menu li a {
-    color: #fff;
+    color: rgb(0, 187, 187); 
     text-decoration: none;
     padding: 10px;
   }
