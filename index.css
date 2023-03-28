@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
-    border-bottom: 1px solid #000 ;
+    border-bottom: 1px solid #898989 ;
   }
   .logo{
     display: flex;
@@ -22,6 +22,7 @@
 
   .logo h1{
     padding-left: 12px;
+    color:#2471A3;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-weight: bold;
   }
@@ -34,7 +35,7 @@
   min-height: 36px;
   max-width: 250px;
   padding: 0 1rem;
-  color: #000000;
+  color: #363636;
   font-size: 15px;
   border: 2px solid rgb(0, 187, 187);  
   border-radius: 6px 0 0 6px;
@@ -77,83 +78,19 @@
   }
   
   .menu li a {
-    color: rgb(0, 187, 187); 
+    color:#2471A3;
+    border-bottom: 2px solid #fff;
     text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     padding: 10px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+    transition: all 0.5s ease;
   }
-  
-  .dropdown-menu {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    z-index: 1;
+  .menu li a:hover {
+    border-bottom: 2px solid #00d4f0;
+    padding-bottom: 5px;
   }
-  
-  .dropdown:hover .dropdown-menu {
-    display: block;
+  .menu .a {
+    border-bottom: 2px solid rgb(0, 187, 187);
   }
-  
-  .dropdown-menu li {
-    margin: 0;
-  }
-  
-  .dropdown-menu li a {
-    color: #333;
-    padding: 8px;
-    display: block;
-  }
-  
-  .fa-caret-down {
-    margin-left: 5px;
-  }
-  
-  .container2{
-  background-color: rgba(137, 43, 226, 0.527);
-  height: 100%;
-  width: 20%;
-  
-  }
-  
-  
-  .title1{
-  margin: auto;
-  height:  60%;
-  width: 90%;
-  background-color: rgb(0, 187, 187);   
- align-items: center;
-  }
-  
-.title2{
-margin-top: 10%;
-padding-top:1% ;
-margin-left: 40%;
-font-size: 1em;
-font-style: italic;
-font-variant: small-caps;
-color: brown;
-font-family: 'Times New Roman', Times, serif;
-border-width: 20;
-
-
-}
-  
-  #icons {
-    margin-left: 30%;
-  height: 30%;
-  width: 30%;
-  padding-bottom: 1%;
-  }
-  
-  
-.container22{
-position:absolute;
-margin-top: -200%;
-margin-left: 25%;
-background-color: rgba(0, 0, 0, 0.945);
-height: 50%;
-width: 30%;
-
-}
-  
